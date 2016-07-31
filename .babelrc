@@ -6,5 +6,9 @@
   ],
   "blacklist": [
     "es7.classProperties"
+  ],
+  "optional": [
+    "es3.memberExpressionLiterals",
+    "es3.propertyLiterals"
   ]
 }

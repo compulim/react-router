@@ -1,6 +1,6 @@
 {
   "name": "react-router-es3",
-  "version": "1.0.3-rc1",
+  "version": "1.0.3-rc2",
   "description": "A complete routing library for React.js with ES3 support",
   "files": [
     "*.md",
@@ -14,7 +14,7 @@
   "jsnext:main": "es6/index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rackt/react-router.git"
+    "url": "https://github.com/compulim/react-router.git"
   },
   "homepage": "https://rackt.github.io/react-router/",
   "bugs": "https://github.com/rackt/react-router/issues",

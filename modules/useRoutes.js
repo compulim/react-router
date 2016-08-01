@@ -96,7 +96,7 @@ function useRoutes(createHistory) {
 
     function getRouteHooksForRoutes(routes) {
       return routes.reduce(function (hooks, route) {
-        hooks.push.apply(hooks, RouteHooks[getRouteID(route)])
+        hooks.push.apply(hooks, RouteHooks[getRouteID(route)] || [])
         return hooks
       }, [])
     }

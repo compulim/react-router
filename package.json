@@ -1,6 +1,6 @@
 {
   "name": "react-router-es3",
-  "version": "1.0.3-rc0",
+  "version": "1.0.3-rc1",
   "description": "A complete routing library for React.js with ES3 support",
   "files": [
     "*.md",

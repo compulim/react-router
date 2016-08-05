@@ -5,7 +5,11 @@
   "env": {
     "cjs": {
       "presets": ["es2015-loose", "stage-1"],
-      "plugins": ["add-module-exports"]
+      "plugins": [
+        "add-module-exports",
+        "transform-es3-member-expression-literals",
+        "transform-es3-property-literals"
+      ]
     },
     "es": {
       "presets": ["es2015-loose-native-modules", "stage-1"]

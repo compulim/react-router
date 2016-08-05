@@ -1,6 +1,6 @@
 {
-  "name": "react-router",
-  "version": "2.6.1",
+  "name": "react-router-es3",
+  "version": "2.6.1-rc0",
   "description": "A complete routing library for React",
   "files": [
     "*.md",
@@ -11,7 +11,7 @@
   ],
   "main": "lib/index",
   "jsnext:main": "es6/index",
-  "repository": "reactjs/react-router",
+  "repository": "compulim/react-router",
   "homepage": "https://github.com/reactjs/react-router#readme",
   "bugs": "https://github.com/reactjs/react-router/issues",
   "scripts": {
@@ -49,6 +49,8 @@
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-dev-expression": "^0.2.1",
     "babel-plugin-istanbul": "^1.0.3",
+    "babel-plugin-transform-es3-member-expression-literals": "^6.8.0",
+    "babel-plugin-transform-es3-property-literals": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-es2015-loose": "^7.0.0",
     "babel-preset-es2015-loose-native-modules": "^1.0.0",
